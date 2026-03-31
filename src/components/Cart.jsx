@@ -1,4 +1,5 @@
 import React from 'react';
+// import cartImage from '../assets/products/shopping-cart.png';
 
 const Cart = ({ cart, remove, checkout }) => {
   const total = cart.reduce((sum, item) => sum + item.price, 0);
@@ -12,7 +13,11 @@ const Cart = ({ cart, remove, checkout }) => {
           
           /* Empty Cart */
           <div className="flex flex-col items-center justify-center py-24 bg-gray-50/50 rounded-2xl border border-dashed border-gray-200">
+
             <i className="fas fa-shopping-cart text-6xl mb-6 text-gray-200"></i>
+            
+            {/* <img src={cartImage} alt="Cart" className="w-15 h-15 object-contain"/> */}
+
             <p className="text-gray-400 bg-white px-6 py-2 rounded-full shadow-sm text-sm font-medium">
                 Your cart is empty
             </p>

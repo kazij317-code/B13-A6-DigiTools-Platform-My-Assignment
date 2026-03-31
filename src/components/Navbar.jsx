@@ -53,7 +53,7 @@ const Navbar = ({ cartCount, setView }) => {
           </button>
         </div>
 
-        
+       
         {menuOpen && (
           <div className="md:hidden mt-4 pb-4 flex flex-col gap-6 border-t pt-4">
             <ul className="flex flex-col gap-4 font-semibold text-gray-700">
