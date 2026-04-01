@@ -31,7 +31,7 @@ const StepsSection = () => {
   return (
     <section className="py-20 px-6 bg-[#F1F1F1] mt-[100px] mb-20">
       <div className="max-w-6xl mx-auto">
-        {/* Header */}
+        
         <div className="text-center mb-10">
           <h2 className="text-[48px] font-extrabold mb-4">
             Get Started In 3 Steps
@@ -41,24 +41,24 @@ const StepsSection = () => {
           </p>
         </div>
 
-        {/* Steps Cards Grid */}
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {steps.map((step) => (
             <div 
               key={step.id} 
               className="relative bg-white border border-gray-100 rounded-2xl px-8 py-20 shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center"
             >
-              {/* Floating Number Badge */}
+          
               <div className="absolute top-4 right-4 bg-[#7c3aed] text-white text-xs font-bold w-7 h-7 flex items-center justify-center rounded-full">
                 {step.id}
               </div>
 
-              {/* Icon Container */}
-              <div className="w-25 h-25 bg-purple-50 text-[#7c3aed] rounded-full flex items-center justify-center mb-6">
+             
+              <div className="w-25 h-25 bg-[#F1F1F1] text-[#7c3aed] rounded-full flex items-center justify-center mb-6">
                 {step.icon}
               </div>
 
-              {/* Text Content */}
+             
               <h3 className="text-[24px] font-bold mb-3">
                 {step.title}
               </h3>

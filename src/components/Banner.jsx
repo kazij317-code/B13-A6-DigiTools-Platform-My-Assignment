@@ -7,12 +7,12 @@ const Banner = () => {
   return (
     <div className="py-16">
 
-      {/* ✅ Container for consistent spacing */}
+      
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
 
         <div className="flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-20">
 
-          {/* Text */}
+        
           <div className="text-center lg:text-left">
             <div className="flex">
               <button className="flex items-center gap-2 px-6 py-2 text-[#9514FA] bg-[#E1E7FF] font-bold rounded-full">
@@ -26,7 +26,7 @@ const Banner = () => {
               </button>
             </div>
 
-            <h1 className="text-[72px] md:text-[72px] font-bold leading-tight mt-3">
+            <h1 className="text-[60px] md:text-[60px] font-bold leading-tight mt-3">
               Supercharge Your Digital Workflow
             </h1>
 
@@ -48,7 +48,7 @@ const Banner = () => {
             </div>
           </div>
 
-          {/* Image */}
+         
           <div className="flex justify-center">
             <img
               src={myImage}

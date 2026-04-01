@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-// Import icons
+
 import writingIcon from "../assets/products/writing.png";
 import designIcon from "../assets/products/design-tool.png";
 import premiumIcon from "../assets/products/camera.png";

@@ -12,7 +12,7 @@ const StatsSection = () => {
       <div className="max-w-6xl w-full flex flex-col md:flex-row justify-around items-center gap-8 md:gap-0">
         {stats.map((stat, index) => (
           <React.Fragment key={index}>
-            {/* Stat Item */}
+           
             <div className="text-center text-white flex-1">
               <h2 className="text-5xl md:text-6xl font-bold mb-2 tracking-tight">
                 {stat.value}
@@ -22,7 +22,7 @@ const StatsSection = () => {
               </p>
             </div>
 
-            {/* Vertical Divider (Hidden on mobile) */}
+            
             {index !== stats.length - 1 && (
               <div className="hidden md:block h-16 w-[1px] bg-white/30" />
             )}

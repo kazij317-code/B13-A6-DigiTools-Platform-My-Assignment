@@ -5,16 +5,16 @@ const Navbar = ({ cartCount, setView }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="w-full border-b border-gray-200 py-4 bg-white">
+    <div className="w-full border-b border-gray-200 py-4 bg-white sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
         <div className="flex justify-between items-center">
           
-         
+        
           <h1 className="font-bold text-2xl md:text-4xl text-[#9514FA] cursor-pointer" onClick={() => setView("products")}>
             <span className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>DigiTools</span>
           </h1>
 
-          {/* Desktop Menu */}
+         
           <ul className="hidden md:flex gap-6 font-semibold text-gray-700">
             <li><a href="#" className="hover:text-[#9514FA] transition">Products</a></li>
             <li><a href="#" className="hover:text-[#9514FA] transition">Features</a></li>
@@ -23,9 +23,9 @@ const Navbar = ({ cartCount, setView }) => {
             <li><a href="#" className="hover:text-[#9514FA] transition">FAQ</a></li>
           </ul>
 
-         
+        
           <div className="hidden md:flex items-center gap-6">
-            
+           
             <button 
               onClick={() => setView("cart")} 
               className="relative p-2 transition-transform hover:scale-110"
@@ -47,7 +47,7 @@ const Navbar = ({ cartCount, setView }) => {
             </button>
           </div>
 
-        
+          {/* Mobile Menu Button */}
           <button className="md:hidden text-2xl text-gray-700" onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? '✕' : '☰'}
           </button>
@@ -63,7 +63,7 @@ const Navbar = ({ cartCount, setView }) => {
             </ul>
 
             <div className="flex items-center justify-between bg-gray-50 p-4 rounded-xl">
-             
+              
               <button onClick={() => setView("cart")} className="relative">
                 <img src={cartImage} alt="Cart" className="w-10 h-10" />
                 {cartCount > 0 && (
