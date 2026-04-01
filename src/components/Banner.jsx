@@ -26,7 +26,7 @@ const Banner = () => {
               </button>
             </div>
 
-            <h1 className="text-[60px] md:text-[60px] font-bold leading-tight mt-3">
+            <h1 className="text-[55px] md:text-[60px] font-bold leading-tight mt-3">
               Supercharge Your Digital Workflow
             </h1>
 
