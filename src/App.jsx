@@ -1,6 +1,8 @@
 import './App.css'
 
-
+import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
+import CTASection from './components/CTAsection';
 import StepsSection from "./components/StepsSection";
 import StatsSection from './components/StatsSection';
 import { useState } from "react";
@@ -78,6 +80,9 @@ function App() {
         )}
       </div>
       <StepsSection />
+      <Pricing />
+      <CTASection/>
+      <Footer />
       <ToastContainer />
     </>
   );
