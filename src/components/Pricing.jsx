@@ -11,7 +11,7 @@ const Pricing = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[30px] px-4 mt-8">
 
-          <div className="card bg-[#F2F2F2] rounded-3xl border-gray-500 p-6">
+          <div className="card bg-[#F2F2F2] rounded-3xl border-2 border-gray-200 p-6">
             <h3 className="text-[24px] font-bold">Starter</h3>
             <p className='text-[#627382] my-4'>Perfect for getting started</p>
             <p className='mb-4'><span className="font-bold text-[40px]">$0</span>/Month</p>
@@ -33,17 +33,17 @@ const Pricing = () => {
             <p className='my-4'>Best for professionals</p>
             <p className='mb-4'><span className="font-bold text-[40px]">$29</span>/Month</p>
             <ul className='flex-1 space-y-1'>
-              <li><span className='text-[#30B868]'>✔</span>  Access to all premium tools</li>
-              <li><span className='text-[#30B868]'>✔</span>  Unlimited templates</li>
-              <li><span className='text-[#30B868]'>✔</span>  Priority support</li>
-              <li><span className='text-[#30B868]'>✔</span>  Unlimited projects</li>
-              <li><span className='text-[#30B868]'>✔</span>  Cloud sync</li>
-              <li><span className='text-[#30B868]'>✔</span>  Advanced analytics</li>
+              <li><span>✔</span>  Access to all premium tools</li>
+              <li><span>✔</span>  Unlimited templates</li>
+              <li><span>✔</span>  Priority support</li>
+              <li><span>✔</span>  Unlimited projects</li>
+              <li><span>✔</span>  Cloud sync</li>
+              <li><span>✔</span>  Advanced analytics</li>
             </ul>
             <button className="btn btn-primary rounded-full px-4 py-6 font-bold mt-4 bg-white text-[#9514FA]">Start Pro Trial</button>
           </div>
 
-          <div className="card bg-[#F2F2F2] p-6 rounded-3xl">
+          <div className="card bg-[#F2F2F2] p-6 rounded-3xl border-2 border-gray-200">
             <h3 className="text-[24px] font-bold">Enterprise</h3>
             <p className='text-[#627382] my-4'>For teams and businesses</p>
             <p className='mb-4'><span className="font-bold text-[40px]">$99</span>/month</p>
