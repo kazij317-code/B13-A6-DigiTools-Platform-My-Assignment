@@ -2,7 +2,7 @@ import './App.css'
 
 
 
-
+import StatsSection from './components/StatsSection';
 import { useState } from "react";
 import productsData from "./data/products.json";
 import Navbar from "./components/Navbar";
@@ -38,6 +38,7 @@ function App() {
     <>
       <Navbar cartCount={cart.length} setView={setView} />
       <Banner />
+      <StatsSection />
      
       <div className='text-center mt-[100px]'>
         <h1 className='text-[48px] font-extrabold text-[#111827]'>Premium Digital Tools</h1>
