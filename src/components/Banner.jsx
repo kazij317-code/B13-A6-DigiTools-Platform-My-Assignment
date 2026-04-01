@@ -53,7 +53,7 @@ const Banner = () => {
             <img
               src={myImage}
               alt="Banner"
-              className="w-[500px] h-[590px] max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-2xl"
+              className="w-[500px] h-[590px] max-w-sm md:max-w-md lg:max-w-lg rounded-lg"
             />
           </div>
 
