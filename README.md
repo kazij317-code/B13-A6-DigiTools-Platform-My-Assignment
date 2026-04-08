@@ -4,7 +4,7 @@ DigiTools is a modern web application to explore and purchase digital tools with
 
 📸 Screenshot
 
-![DigiTools Screenshot](./src/assets/ChatGPT%20Image%20Apr%208,%202026,%2006_06_48%20PM.png)
+![DigiTools Screenshot](./src/assets/digitools.png)
 
 
 ⚙️ Tech Stack
