@@ -1,20 +1,21 @@
-📚 DigiTools
+📚 DigiTools:
 
 DigiTools is a modern web application to explore and purchase digital tools with a clean UI, responsive design, and an interactive cart system for a smooth user experience.
 
-📸 Screenshot
+📸 Screenshot:
 
 ![DigiTools Screenshot](./src/assets/products/digi.png)
 
 
-⚙️ Tech Stack
+⚙️ Tech Stack:
 
 React.js
 Tailwind CSS
 DaisyUI
 JavaScript (ES6+)
 
-✨ Main Features
+✨ Main Features:
+
 🛒 Add to cart functionality
 ❌ Remove items from cart
 🔔 Toast notifications for user feedback
@@ -22,7 +23,8 @@ JavaScript (ES6+)
 ⚡ Fast and interactive UI
 
 
-📦 Dependencies
+📦 Dependencies:
+
 react
 react-dom
 tailwindcss
@@ -30,24 +32,29 @@ daisyui
 react-toastify
 vite
 
-🚀 Run Locally
+🚀 Run Locally:
 
 Follow these steps to run the project on your local machine:
 
-1️⃣ Clone the repository
+1️⃣ Clone the repository:
 git clone https://github.com/kazij317-code/B13-A6-DigiTools-Platform-My-Assignment.git
-2️⃣ Go to project folder
+
+2️⃣ Go to project folder:
 cd B13-A6-DigiTools-Platform-My-Assignment
-3️⃣ Install dependencies
+
+3️⃣ Install dependencies:
 npm install
-4️⃣ Run the project
+
+4️⃣ Run the project:
 npm run dev
-5️⃣ Open in browser
+
+5️⃣ Open in browser:
 http://localhost:5173
 
 
-🔗 Relevant Links
+🔗 Relevant Links:
 🌐 Live Site: https://kazij317-code.github.io/B13-A6-DigiTools-Platform-My-Assignment/
+
 💻 GitHub Repo: https://github.com/kazij317-code/B13-A6-DigiTools-Platform-My-Assignment
 -----------------------------------------------------------------------------------------------------
 # 🚀 DigiTools – Digital Tools Buying Platform
